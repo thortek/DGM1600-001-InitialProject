@@ -1,13 +1,29 @@
 * {
   margin: 0;
+  font-family:'Roboto'
 }
 
 header {
-  border: solid darkgreen;
+  border: solid #dddddd;
+}
+
+main {
+  height: 70vh;
+  border: 1px blue solid;
+  background-color: #dddddd;
 }
 
 h1 {
   background-color: chocolate;
+}
+
+.variableSizeText {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+img {
+  width: 20rem;
 }
 
 #copyright {

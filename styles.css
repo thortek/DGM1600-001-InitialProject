@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+
+header {
+  border: solid darkgreen;
+}
+
+h1 {
+  background-color: chocolate;
+}
+
+#copyright {
+  color: rgb(50, 50, 205);
+  background-color: chartreuse;
+}
+
+.bodyText {
+  background-color: #fb0404;
+  color: #fff333;
+}
+

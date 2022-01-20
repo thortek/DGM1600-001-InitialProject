@@ -3,36 +3,44 @@
   font-family:'Roboto'
 }
 
+body {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #13243e;
+  border: 1px solid #ffffff;
+}
+
 header {
-  border: solid #dddddd;
+  text-align: center;
+}
+
+header img {
+  height: 90px;
 }
 
 main {
-  height: 70vh;
+  /* height: 70vh; */
   border: 1px blue solid;
-  background-color: #dddddd;
+  /* background-color: #dddddd; */
 }
 
-h1 {
-  background-color: chocolate;
+#bio {
+ 
 }
 
-.variableSizeText {
-  font-size: 1.5rem;
-  font-weight: 900;
+#tech img{
+  height: 200px;
+  display: block;
 }
 
-img {
-  width: 20rem;
+#interest {
+
 }
+
 
 #copyright {
   color: rgb(50, 50, 205);
   background-color: chartreuse;
 }
 
-.bodyText {
-  background-color: #fb0404;
-  color: #fff333;
-}
 

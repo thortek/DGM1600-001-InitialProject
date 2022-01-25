@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  font-family:'Roboto'
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
 }
 
 body {
@@ -25,16 +26,37 @@ main {
 }
 
 #bio {
- 
+ display: flex;
+}
+
+#name-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+#bio-choose {
+  width: 100%;
+}
+
+#choose-list {
+  padding: 1rem;
+}
+
+#choose-list h4 {
+  margin-bottom: 1rem;
 }
 
 #tech img{
   height: 200px;
-  display: block;
 }
 
 #interest {
 
+}
+
+.greyBox {
+  background-color: #555555;
+  font-weight: 100;
 }
 
 

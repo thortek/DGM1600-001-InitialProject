@@ -8,7 +8,6 @@ body {
   width: 960px;
   margin: 0 auto;
   background-color: #13243e;
-  border: 1px solid #ffffff;
 }
 
 header {
@@ -21,8 +20,12 @@ header img {
 
 main {
   /* height: 70vh; */
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
   /* background-color: #dddddd; */
+}
+
+section {
+  margin: 2rem 0;
 }
 
 #bio {
@@ -32,32 +35,68 @@ main {
 #name-date {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: larger;
 }
 
 #bio-choose {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: .5rem;
 }
 
 #choose-list {
-  padding: 1rem;
+  padding: .85rem;
+  background-color: #555555;
+  font-weight: 100;
 }
 
 #choose-list h4 {
   margin-bottom: 1rem;
 }
 
-#tech img{
-  height: 200px;
+#tech {
+  display: flex;
+  justify-content: space-between;
 }
 
-#interest {
+figure {
+  width: 10rem;
+  text-align: center;
+  font-size: small;
+}
 
+figure img{
+  height: 10rem;
+}
+
+figcaption {
+  background-color: rgba(0, 0, 0, .5);
+ padding: .5rem;
+ position: relative;
+ bottom: 1.5rem;
+}
+
+
+#interest h2 {
+  margin-bottom: 1rem;
 }
 
 .greyBox {
   background-color: #555555;
   font-weight: 100;
+  padding: 1rem;
 }
+
+.greyBox p {
+  margin-top: .75rem;
+}
+
+h2, h4 {
+  color: #C0F0FF;
+  }
 
 
 #copyright {
